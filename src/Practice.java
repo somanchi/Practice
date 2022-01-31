@@ -19,13 +19,14 @@ public class Practice {
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.sort(a);
 
-        //TODO Selection Sort <Find min and swap it with first value>
-
         MatchingParenthesis matchingparenthesis = new MatchingParenthesis();
         System.out.println(matchingparenthesis.match("(){{}}"));
 
         RandomizePlayList randomizePlayList = new RandomizePlayList();
         randomizePlayList.randomize(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10});
+
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort();
 
     }
 }

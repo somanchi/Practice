@@ -7,12 +7,12 @@ public class RandomizePlayList {
         HashSet<Integer> set = new  HashSet<>();
         int i = 0;
         do {
-            int randomNumeber = random.nextInt(10);
-            if (!set.contains(randomNumeber)) {
-                set.add(randomNumeber);
+            int randomNumber = random.nextInt(10);
+            if (!set.contains(randomNumber)) {
+                set.add(randomNumber);
                 int temp = numbers[i];
-                numbers[i] = numbers[randomNumeber];
-                numbers[randomNumeber] = temp;
+                numbers[i] = numbers[randomNumber];
+                numbers[randomNumber] = temp;
                 i++;
             }
         } while (set.size() != 10);
