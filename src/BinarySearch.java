@@ -1,3 +1,5 @@
+import java.util.PriorityQueue;
+
 public class BinarySearch {
 
     public int binarySearch(int[] array,int target ,int start , int end)  {
