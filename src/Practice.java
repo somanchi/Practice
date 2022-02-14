@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Practice {
 
     public static void main(String[] args) {
@@ -47,15 +45,15 @@ public class Practice {
 //        * */
 
 
-        Question1 question1 = new Question1(3);
-        question1.add(1);
-        question1.add(2);
-        question1.add(2);
-        question1.add(3);
-        question1.add(3);
-        question1.add(2);
+        LFU LFU = new LFU(3);
+        LFU.add(1);
+        LFU.add(2);
+        LFU.add(2);
+        LFU.add(3);
+        LFU.add(3);
+        LFU.add(2);
 
-        System.out.println(question1.getData(1));
-        System.out.println(question1.getData(2));
+        System.out.println(LFU.getData(1));
+        System.out.println(LFU.getData(2));
     }
 }

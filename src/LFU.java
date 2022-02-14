@@ -1,13 +1,13 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class Question1 {
+public class LFU {
 
     int MAX_LIMIT = 5;
 
     LinkedHashMap<Integer,Cache> map;
 
-    public Question1(int MAX_LIMIT) {
+    public LFU(int MAX_LIMIT) {
         this.MAX_LIMIT = MAX_LIMIT;
         map = new LinkedHashMap<>(MAX_LIMIT);
     }
