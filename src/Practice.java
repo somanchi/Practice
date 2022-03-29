@@ -45,15 +45,15 @@ public class Practice {
 //        * */
 
 
-        LFU LFU = new LFU(3);
-        LFU.add(1);
-        LFU.add(2);
-        LFU.add(2);
-        LFU.add(3);
-        LFU.add(3);
-        LFU.add(2);
-
-        System.out.println(LFU.getData(1));
-        System.out.println(LFU.getData(2));
+//        LFU LFU = new LFU(3);
+//        LFU.add(1);
+//        LFU.add(2);
+//        LFU.add(2);
+//        LFU.add(3);
+//        LFU.add(3);
+//        LFU.add(2);
+//
+//        System.out.println(LFU.getData(1));
+//        System.out.println(LFU.getData(2));
     }
 }
